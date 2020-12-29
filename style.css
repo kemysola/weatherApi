@@ -1,0 +1,49 @@
+//header{
+  //display: flex;
+  //flex-direction:column;
+  //min-height:100vh;
+  //background-image : linear-gradient(to bottom);
+//}
+body{
+  background-image: url("wewe.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+  //background-position:tcover;
+  color:white;
+  border-radius:10px;
+}
+.search-box{
+  border-radius:40%;
+}
+
+h5{
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height:100vh;
+  background-image: linear-gradient(to bottom);
+}
+
+
+.city{
+  text-align:center;
+  padding-top:20px;
+  font-size:50px;
+}
+
+.temp{
+  text-align: center;
+  padding-top:20px;
+  font-size:50px;
+}
+
+.weather{
+  text-align:center;
+  padding-top: 20px;
+  font-size:40px;
+}
